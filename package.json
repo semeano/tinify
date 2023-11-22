@@ -9,8 +9,10 @@
   "author": "Pedro Semeano",
   "license": "ISC",
   "dependencies": {
+    "flat-map": "^1.0.0",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
+    "gulp-scale-images": "^3.0.2",
     "gulp-smushit": "^1.2.0"
   }
 }
