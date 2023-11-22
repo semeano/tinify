@@ -1,0 +1,16 @@
+{
+  "name": "tinify",
+  "version": "1.0.0",
+  "description": "Tinify images",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx gulp"
+  },
+  "author": "Pedro Semeano",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-smushit": "^1.2.0"
+  }
+}
