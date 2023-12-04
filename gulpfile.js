@@ -9,7 +9,7 @@ function cleanOutput() {
 }
 
 function images(cb) {
-  src("input/*.{jpeg, jpg, png}")
+  src("input/*.{jpeg,jpg,png}")
     .pipe(
       flatMap((file, cb) => {
         file.scale = { maxHeight: 1200 };
